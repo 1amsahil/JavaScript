@@ -1,20 +1,16 @@
-while(true)
-{
-    var random = Math.floor(Math.random()*10);
-    console.log("Random : ",random);
+var random = Math.floor(Math.random()*10);
+console.log("Random : ",random);
 
-    var number = prompt("Enter a number to Guess.");
-    console.log("User Number : ",number);
-    
-    if(number == random)
-    {
-        alert("Wow ! you guess the right number !");
-        break;
-    }
-    else
-    {
-        alert("Try Again, you the right number !");
-    }
+let number = prompt("Enter a number to Guess.");
+console.log("User Number : ",number);
+
+
+while(number != random)
+{
+    alert("Try Again !");
+    number = prompt("Enter a number to Guess.");
+
 }
+alert("Wow ! you guess the right number !");
 
 
