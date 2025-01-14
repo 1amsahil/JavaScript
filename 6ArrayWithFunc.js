@@ -31,6 +31,6 @@ console.log("slice() : ",heroes.slice(1,3));
 
 // Note :- Important Function
 // splice() :- change original array (add, remove, replace)
-// splice(index, remove, add)
+// eg : splice(index, remove, add)
 heroes.splice(1,0,"Thor");
 console.log("splice() : ",heroes);
